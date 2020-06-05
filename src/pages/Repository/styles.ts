@@ -2,6 +2,10 @@ import styled, {css} from 'styled-components';
 import { colors } from '../../Styles/global';
 import { shade } from 'polished';
 
+export const Logo = styled.img`
+  width: 200px;
+`;
+
 export const Header = styled.header`
   display: flex;
   align-items: center;

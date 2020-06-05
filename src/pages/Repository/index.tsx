@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useRouteMatch, Link } from 'react-router-dom'
-import { Header, RepositoryInfo, Issues } from './styles'
+import { Header, RepositoryInfo, Issues, Logo } from './styles'
 
 import provider from './../../services/provider';
 
@@ -61,7 +61,7 @@ const Repository:React.FC = () => {
   return (
     <>
       <Header>
-        <img src={logoImg}/>
+        <Logo src={logoImg}></Logo>
         <Link to="/">
           <FiChevronLeft size="20"/> Voltar
         </Link>
