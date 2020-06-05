@@ -7,6 +7,10 @@ interface FormProps {
   hasError: Boolean;
 }
 
+export const Logo = styled.img`
+  width: 200px;
+`;
+
 export const Title = styled.h1`
   font-size: 48px;
   max-width: 450px;
